@@ -21,6 +21,7 @@
  
 <!--
 
+
   The purpose have this XSL is to provide a nice way to look at the output
   from the Ant XmlLogger (ie: ant -listener org.apache.tools.ant.XmlLogger )
   
@@ -31,7 +32,7 @@
 
 <xsl:template match="/">
 <html>
-  <head>
+  <head> 
     <style type="text/css">
     .bannercell {
       border: 0px;
